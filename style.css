@@ -1,0 +1,283 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    padding: 0 66px;
+}
+.slide{
+    width: 110%;
+    height: 650px;
+    position: relative;
+    background-image: url("bacground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.header{
+    position: relative;
+    padding: 60px 66px;
+}
+.header.menu{
+    float: left;
+    text-align: right;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    display: block;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: Myriad pro;
+}
+.slideTitle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+.slideTitle h1{
+    font-size: 50px;
+}
+.slideTitle p{
+    font-size: 16px;
+    padding: 0 25px;
+    text-align: center;
+}
+.content{
+    padding: 0 40px;
+}
+.content-title{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.content-title h2{
+    font-size: 28px;
+    font-family: Myriad pro;
+    color: #333333;
+}
+.border span{
+    width: 9px;
+    height: 9px;
+    margin: 0 3px;
+    background-color: #9aabcf;
+    border-radius: 100px;
+    display: inline-block;
+}
+p.content-desc{
+    font-size: 16px;
+    color: #393838;
+    padding: 5px;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    font-family: myriad pro;
+}
+.skill-section{
+    display: inline-block;
+    width: 100%;
+    float: left;
+    padding: 45px 0;
+}
+.skill-img{
+    width: 55%;
+    float: left;
+}
+.skill-img img{
+    width: 100%;
+}
+.skill-content{
+    width: 40%;
+    float: right;
+}
+h3.skill-title{
+    font-size: 28px;
+    font-family: Myriad pro;
+    color: #393838;
+    font-weight: 500;
+    float: left;
+    width: 100%;
+}
+.skills{
+    width: 100%;
+    float: left;
+    padding-top: 30px;
+}
+.skills i{
+    color: #393838;
+    font-family: Myriad pro;
+    clear: both;
+    float: left;
+}
+.skills span{
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    border: 1px solid #9aabcf;
+    display: inline-block;
+    float: left;
+}
+.skills span abbr{
+    width: 70%;
+    height: 25px;
+    background-color: #9aabcf;
+    display: inline-block;
+}
+.skills.Speaking span abbr{
+    width: 80%;
+}
+.skills.Efficiancy span abbr{
+    width: 96%;
+}
+.skills.Computer span abbr{
+    width: 50%;
+}
+.about-content,.desk-img{
+    width: 100%;
+    float: left;
+    display: inline-block;
+    font-family: Myriad pro;
+    color: black;
+    padding-top: 35px 0;
+}
+.about-desc{
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+.about-desc p{
+    padding-bottom: 50px;
+}
+.about-img{
+    width: 45%;
+    float: right;
+     display: inline-block;
+
+}
+.desk-img img{
+    width: 30%;
+}
+.desk-img img.desk2img{
+    margin: 0 4%;
+}
+.content.ourteam{
+         padding-top: 35px;
+         clear: left;
+}
+.tm, .employer{
+    display: inline-block;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    font-family: Myriad pro;
+    padding: 25px 15px 0;
+}
+.employer{
+    padding: 0 35px 15px;
+
+}
+.employer-image{
+    width: 20%;
+    float: left;
+}
+.employer-image img{
+    width: 100%;
+}
+.employer-detail{
+    width: 70%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.employer-detail h3{
+    padding-bottom: 10px;
+}
+.employer-detail h4{
+    padding-bottom: 10px;
+}
+.employer-detail p{
+    font-weight: normal;
+}
+.employer-detail{
+    padding-left: 0px;
+    padding-right: 15px;
+
+
+}
+
+
+.portfolio-img img{
+    width: 30%;
+}
+.portfolio-img img.portfolio2img{
+  margin: 0 4%;
+}
+.portfolio-img img.portfolio6img{
+    margin: 0 4%;
+}
+form.contactform{
+    padding: 0 100px 15px;
+}
+.txtfield.message, .submit{
+    font-family: Myriad pro;
+}
+.txtfield{
+    width: 48%;
+    height: 35px;
+    padding: 0 5px;
+    border: 1px solid #333333;
+    font-size: 16px;
+    font-style: italic;
+}
+.txtfield.email{
+    float: right;
+}
+.message{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 1px solid #333333;
+    font-style: italic;
+}
+.submit{
+    width: 30%;
+    height: 35px;
+    background-color: #9aabcf;
+    color: #ffffff;
+    border: 1px solid #333333;
+    margin: 15px;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+}
+
+
+#footer h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 2.6rem;
+    font-weight: 500;
+    color: #fff;
+    background: rgb(65, 65, 65);
+  }
+
+html,body{
+    width: 100%;
+    height: 1005;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
